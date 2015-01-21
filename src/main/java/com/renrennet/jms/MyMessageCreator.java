@@ -1,4 +1,5 @@
 package com.renrennet.jms;
+
 import javax.jms.JMSException;
 import javax.jms.Message;
 import javax.jms.Session;

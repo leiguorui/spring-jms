@@ -1,9 +1,11 @@
 package com.renrennet.jms;
+
 import javax.jms.Destination;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.jms.core.JmsTemplate;
+
 /**
  * 发送消息方
  */
