@@ -1,4 +1,4 @@
-package test;
+package com.renrennet.jms;
 import javax.jms.Destination;
 
 import org.springframework.context.ApplicationContext;
@@ -6,8 +6,6 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.jms.core.JmsTemplate;
 /**
  * 发送消息方
- * User: liuwentao
- * Time: 12-6-14 上午11:29
  */
 public class MessageSender extends Thread {
     public static void main(String args[]) throws Exception {

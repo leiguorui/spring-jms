@@ -1,14 +1,14 @@
-package test;
+package com.renrennet.jms;
+
 import javax.jms.Destination;
 import javax.jms.TextMessage;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.jms.core.JmsTemplate;
+
 /**
  * 消息接收方
- * User: liuwentao
- * Time: 12-6-14 上午11:32
  */
 public class MessageReciver{
     public static void main(String args[]) throws Exception {

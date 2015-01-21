@@ -1,4 +1,4 @@
-package test;
+package com.renrennet.jms;
 import javax.jms.JMSException;
 import javax.jms.Message;
 import javax.jms.Session;
@@ -7,8 +7,6 @@ import org.springframework.jms.core.MessageCreator;
 
 /**
  * 消息产生者
- * User: liuwentao
- * Time: 12-6-14 上午11:31
  */
 public class MyMessageCreator implements MessageCreator {
     public int n = 0;
